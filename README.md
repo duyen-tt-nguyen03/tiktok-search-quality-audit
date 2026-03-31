@@ -30,7 +30,7 @@ The project uses **80 English-language search queries** across four intent categ
 - **Informational**: user wants to learn something
 - **Navigational**: user wants to find a specific account or page
 - **Transactional**: user wants to take an action
-- **Commercial**: user is comparing options before deciding :contentReference[oaicite:2]{index=2}
+- **Commercial**: user is comparing options before deciding 
 
 ### For each query, the dataset records:
 - query text
@@ -43,7 +43,7 @@ The project uses **80 English-language search queries** across four intent categ
 - intent label
 - relevance score
 - failure flag
-- ideal result note for weak results :contentReference[oaicite:3]{index=3}
+- ideal result note for weak results
 
 Total expected size: **400 rows**  
 (80 queries × 5 results) 
@@ -60,7 +60,7 @@ Before collecting data, the project defines:
   - wrong language
   - clickbait
   - spam
-  - outdated content :contentReference[oaicite:5]{index=5}
+  - outdated content 
 
 ### Relevance Scale
 - **0** = Skip it
@@ -92,4 +92,4 @@ Using Python, the project analyzes:
 Tools:
 - pandas
 - matplotlib
-- seaborn :contentReference[oaicite:11]{index=11}
+- seaborn 
